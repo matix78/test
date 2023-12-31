@@ -152,3 +152,36 @@ canvas {
         opacity: 1;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    #countdown {
+        font-size: 2em;
+    }
+
+    #info {
+        font-size: 1.5em;
+        top: 75%;
+    }
+
+    #info2 {
+        font-size: 1em;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .pagon {
+        width: 5%;
+        height: 5%;
+        margin-left: 5px;
+    }
+
+    #timer {
+        font-size: 0.8em;
+        margin-left: 10px;
+    }
+
+    .background-text {
+        font-size: 2em;
+    }
+}
